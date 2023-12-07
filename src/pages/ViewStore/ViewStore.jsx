@@ -35,13 +35,7 @@ function ViewStore(props) {
             </button>
           </div>
         </div>
-        <Link
-          className="view__save-button"
-          onClick={() => {
-            void sendData();
-          }}
-          to={"/online-store/appintegration"}
-        >
+        <Link className="view__save-button" to={"/online-store/appintegration"}>
           Save
         </Link>
       </div>
