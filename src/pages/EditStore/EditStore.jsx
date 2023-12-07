@@ -7,7 +7,6 @@ import userIcon from "../../assets/Customer2.png";
 import purchaseIcon from "../../assets/Purchase.png";
 import PhotoUploader from "../../components/PhotoUploader/PhotoUploader";
 import ViewStore from "../ViewStore/ViewStore";
-import axios from "axios";
 
 function EditStore(props) {
   const [showStyleMenu, setShowStyleMenu] = useState({
